@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TKThaiAddress_Example' do
+  pod 'TKThaiAddress', :path => '../'
+
+  target 'TKThaiAddress_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
