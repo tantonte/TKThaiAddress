@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084DF16DCC34330A50D05E556BA4D0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		08BC589DD70DBE65C66C70904DF07C0F /* TKThaiAddress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D704E210578399174E3CFEB991FA859C /* TKThaiAddress-dummy.m */; };
+		0B442A6E73052BA8F49DC790C6D02E29 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1556E7BBB068BC46C311A1E5A9D3EA /* ReplaceMe.m */; };
+		335825DE0CE768D779428CCE57753111 /* Pods-TKThaiAddress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4367526CAFBD90C3031E9803A9F06 /* Pods-TKThaiAddress_Tests-dummy.m */; };
+		4301E118475E17B9E52DE4F5F412B2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		65F80B551ED53B9B007017A4 /* TKDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F80B531ED53B9B007017A4 /* TKDatabaseManager.h */; };
+		65F80B561ED53B9B007017A4 /* TKDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F80B541ED53B9B007017A4 /* TKDatabaseManager.m */; };
+		66EEF7EE757E2CB4FE61F49F4860F05B /* Pods-TKThaiAddress_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6087CEBA8DEB3522204B7E81F2CE03E0 /* Pods-TKThaiAddress_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98922B0A1E58A41C42FC93A01C47DE54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B1E7838C13B2724F49F34C8026FF9A9C /* TKThaiAddress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EDC66ED4CEB1CCEDD3C311065B1A64 /* TKThaiAddress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6628801FC610B637BE47C984F89BB6 /* Pods-TKThaiAddress_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3F2D01FA889436337B5727BA7419A0 /* Pods-TKThaiAddress_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C073C3FC8A7E3FD2F3BFD6402EB08EED /* Pods-TKThaiAddress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C98F8209D045BB01B169E981F26B5938 /* Pods-TKThaiAddress_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BB784C251F7D54738F142A6304D09AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93A259B8C739C26771693DC6FD763A2;
+			remoteInfo = TKThaiAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0135CD61BBC9DDF39BD93F9F84868AA9 /* Pods_TKThaiAddress_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKThaiAddress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475E457864B6F78729EB9CA667FA35C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC4DEC8BD529BCE980C6CEA10A7DB68 /* TKThaiAddress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKThaiAddress-prefix.pch"; sourceTree = "<group>"; };
+		0DC5A93D2CB8C3C576A3C781F1C33201 /* TKThaiAddress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKThaiAddress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7B8197ECE2EEFCF5317F9044CFABE6 /* Pods-TKThaiAddress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKThaiAddress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13E125DB9810F6AC650D68D0DA21453E /* Pods-TKThaiAddress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKThaiAddress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27100A1906D48F78883DA70130FF2759 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C4367526CAFBD90C3031E9803A9F06 /* Pods-TKThaiAddress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKThaiAddress_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DDA91FA3EEFDD028890EA517A5B8D3C /* Pods-TKThaiAddress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKThaiAddress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		519B41D612E287E7EE50B6516161D2FC /* TKThaiAddress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKThaiAddress.xcconfig; sourceTree = "<group>"; };
+		6087CEBA8DEB3522204B7E81F2CE03E0 /* Pods-TKThaiAddress_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKThaiAddress_Example-umbrella.h"; sourceTree = "<group>"; };
+		60EA429AE32E525AF5C5ADEB038A6CF1 /* Pods-TKThaiAddress_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TKThaiAddress_Tests.modulemap"; sourceTree = "<group>"; };
+		648BAFA599B80A275DCE6DDD63811F04 /* Pods-TKThaiAddress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThaiAddress_Example.release.xcconfig"; sourceTree = "<group>"; };
+		65F80B3D1ED53B10007017A4 /* thailand.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = thailand.db; sourceTree = "<group>"; };
+		65F80B3F1ED53B3C007017A4 /* Amphure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Amphure.h; sourceTree = "<group>"; };
+		65F80B401ED53B3C007017A4 /* Amphure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amphure.m; sourceTree = "<group>"; };
+		65F80B411ED53B3C007017A4 /* District.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = District.h; sourceTree = "<group>"; };
+		65F80B421ED53B3C007017A4 /* District.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = District.m; sourceTree = "<group>"; };
+		65F80B431ED53B3C007017A4 /* Geography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geography.h; sourceTree = "<group>"; };
+		65F80B441ED53B3C007017A4 /* Geography.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Geography.m; sourceTree = "<group>"; };
+		65F80B451ED53B3C007017A4 /* Province.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		65F80B461ED53B3C007017A4 /* Province.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
+		65F80B471ED53B3C007017A4 /* Zipcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zipcode.h; sourceTree = "<group>"; };
+		65F80B481ED53B3C007017A4 /* Zipcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zipcode.m; sourceTree = "<group>"; };
+		65F80B4A1ED53B3C007017A4 /* DatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		65F80B4B1ED53B3C007017A4 /* DatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		65F80B4C1ED53B3C007017A4 /* SQLiteDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLiteDataModel.h; sourceTree = "<group>"; };
+		65F80B4D1ED53B3C007017A4 /* SQLiteDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDataModel.m; sourceTree = "<group>"; };
+		65F80B531ED53B9B007017A4 /* TKDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDatabaseManager.h; sourceTree = "<group>"; };
+		65F80B541ED53B9B007017A4 /* TKDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKDatabaseManager.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E1556E7BBB068BC46C311A1E5A9D3EA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		8E707CF9788762CB8CA17B8B8957E0DF /* Pods_TKThaiAddress_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKThaiAddress_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AAC52B44BA09B89BC3B6E55B948A8F4 /* Pods-TKThaiAddress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThaiAddress_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9F4A5FD73C3573338512C924563A01FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B8481523590E9CFED04FBB417903F1 /* Pods-TKThaiAddress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThaiAddress_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD3C896B8CD4D6B83D2F45C7725E4011 /* TKThaiAddress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TKThaiAddress.modulemap; sourceTree = "<group>"; };
+		AE0BCF6A00FED94F18B66412BD207B55 /* Pods-TKThaiAddress_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKThaiAddress_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE3F2D01FA889436337B5727BA7419A0 /* Pods-TKThaiAddress_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKThaiAddress_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C98F8209D045BB01B169E981F26B5938 /* Pods-TKThaiAddress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKThaiAddress_Example-dummy.m"; sourceTree = "<group>"; };
+		CEC4121ACC6F583632F5DF7928464857 /* Pods-TKThaiAddress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKThaiAddress_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D3A1B324168D26FFF164953E05EB1724 /* Pods-TKThaiAddress_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TKThaiAddress_Example.modulemap"; sourceTree = "<group>"; };
+		D704E210578399174E3CFEB991FA859C /* TKThaiAddress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKThaiAddress-dummy.m"; sourceTree = "<group>"; };
+		E3541EB1DC03E850CB8535BF7A7DCD7C /* Pods-TKThaiAddress_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKThaiAddress_Tests-resources.sh"; sourceTree = "<group>"; };
+		E3EDC66ED4CEB1CCEDD3C311065B1A64 /* TKThaiAddress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKThaiAddress-umbrella.h"; sourceTree = "<group>"; };
+		EB492A6617A9E98BAC0D93C666ACCE40 /* Pods-TKThaiAddress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKThaiAddress_Example-resources.sh"; sourceTree = "<group>"; };
+		EC02D8B90B40FC9F3F0EA25848086997 /* Pods-TKThaiAddress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKThaiAddress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7DF393163B4F3D85A91CAA842D48FFB /* Pods-TKThaiAddress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKThaiAddress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294B4A9425E7FED3EB3A8AA485BAE7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301E118475E17B9E52DE4F5F412B2EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE5C6620BEC25B3302D76AD75D31812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922B0A1E58A41C42FC93A01C47DE54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76829989525219063017E1B0BB4171B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084DF16DCC34330A50D05E556BA4D0F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD966B8669B0A8CFFF9CEE9456EB8BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E707CF9788762CB8CA17B8B8957E0DF /* Pods_TKThaiAddress_Example.framework */,
+				0135CD61BBC9DDF39BD93F9F84868AA9 /* Pods_TKThaiAddress_Tests.framework */,
+				0DC5A93D2CB8C3C576A3C781F1C33201 /* TKThaiAddress.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193B7577B67F131A77D33FDBF0763ABB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB33E3910486410F353F1C52C62D19AF /* TKThaiAddress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2DBF6888BFF9E5A5A4E4054938BCE298 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27100A1906D48F78883DA70130FF2759 /* Info.plist */,
+				AD3C896B8CD4D6B83D2F45C7725E4011 /* TKThaiAddress.modulemap */,
+				519B41D612E287E7EE50B6516161D2FC /* TKThaiAddress.xcconfig */,
+				D704E210578399174E3CFEB991FA859C /* TKThaiAddress-dummy.m */,
+				0CC4DEC8BD529BCE980C6CEA10A7DB68 /* TKThaiAddress-prefix.pch */,
+				E3EDC66ED4CEB1CCEDD3C311065B1A64 /* TKThaiAddress-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKThaiAddress";
+			sourceTree = "<group>";
+		};
+		5817FC2F5D52BA2E8866C0F23387EC60 /* TKThaiAddress */ = {
+			isa = PBXGroup;
+			children = (
+				65F80B3D1ED53B10007017A4 /* thailand.db */,
+				A52340F41B61E70C94A8A1C4E8BC21AA /* Classes */,
+			);
+			path = TKThaiAddress;
+			sourceTree = "<group>";
+		};
+		65F80B3E1ED53B3C007017A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65F80B3F1ED53B3C007017A4 /* Amphure.h */,
+				65F80B401ED53B3C007017A4 /* Amphure.m */,
+				65F80B411ED53B3C007017A4 /* District.h */,
+				65F80B421ED53B3C007017A4 /* District.m */,
+				65F80B431ED53B3C007017A4 /* Geography.h */,
+				65F80B441ED53B3C007017A4 /* Geography.m */,
+				65F80B451ED53B3C007017A4 /* Province.h */,
+				65F80B461ED53B3C007017A4 /* Province.m */,
+				65F80B471ED53B3C007017A4 /* Zipcode.h */,
+				65F80B481ED53B3C007017A4 /* Zipcode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65F80B491ED53B3C007017A4 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				65F80B4A1ED53B3C007017A4 /* DatabaseManager.h */,
+				65F80B4B1ED53B3C007017A4 /* DatabaseManager.m */,
+				65F80B4C1ED53B3C007017A4 /* SQLiteDataModel.h */,
+				65F80B4D1ED53B3C007017A4 /* SQLiteDataModel.m */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		65F80B4E1ED53B44007017A4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				65F80B531ED53B9B007017A4 /* TKDatabaseManager.h */,
+				65F80B541ED53B9B007017A4 /* TKDatabaseManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				193B7577B67F131A77D33FDBF0763ABB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0CD966B8669B0A8CFFF9CEE9456EB8BD /* Products */,
+				9F92024D822B401D58015D19A3ADA440 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83AB28DE6F6ABC9B4B56FD92B4BB8228 /* Pods-TKThaiAddress_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0475E457864B6F78729EB9CA667FA35C /* Info.plist */,
+				D3A1B324168D26FFF164953E05EB1724 /* Pods-TKThaiAddress_Example.modulemap */,
+				4DDA91FA3EEFDD028890EA517A5B8D3C /* Pods-TKThaiAddress_Example-acknowledgements.markdown */,
+				F7DF393163B4F3D85A91CAA842D48FFB /* Pods-TKThaiAddress_Example-acknowledgements.plist */,
+				C98F8209D045BB01B169E981F26B5938 /* Pods-TKThaiAddress_Example-dummy.m */,
+				CEC4121ACC6F583632F5DF7928464857 /* Pods-TKThaiAddress_Example-frameworks.sh */,
+				EB492A6617A9E98BAC0D93C666ACCE40 /* Pods-TKThaiAddress_Example-resources.sh */,
+				6087CEBA8DEB3522204B7E81F2CE03E0 /* Pods-TKThaiAddress_Example-umbrella.h */,
+				9AAC52B44BA09B89BC3B6E55B948A8F4 /* Pods-TKThaiAddress_Example.debug.xcconfig */,
+				648BAFA599B80A275DCE6DDD63811F04 /* Pods-TKThaiAddress_Example.release.xcconfig */,
+			);
+			name = "Pods-TKThaiAddress_Example";
+			path = "Target Support Files/Pods-TKThaiAddress_Example";
+			sourceTree = "<group>";
+		};
+		90DA0E10C48D44F3E37FDF00A71B7A24 /* Pods-TKThaiAddress_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A5FD73C3573338512C924563A01FD /* Info.plist */,
+				60EA429AE32E525AF5C5ADEB038A6CF1 /* Pods-TKThaiAddress_Tests.modulemap */,
+				13E125DB9810F6AC650D68D0DA21453E /* Pods-TKThaiAddress_Tests-acknowledgements.markdown */,
+				0F7B8197ECE2EEFCF5317F9044CFABE6 /* Pods-TKThaiAddress_Tests-acknowledgements.plist */,
+				48C4367526CAFBD90C3031E9803A9F06 /* Pods-TKThaiAddress_Tests-dummy.m */,
+				AE0BCF6A00FED94F18B66412BD207B55 /* Pods-TKThaiAddress_Tests-frameworks.sh */,
+				E3541EB1DC03E850CB8535BF7A7DCD7C /* Pods-TKThaiAddress_Tests-resources.sh */,
+				BE3F2D01FA889436337B5727BA7419A0 /* Pods-TKThaiAddress_Tests-umbrella.h */,
+				EC02D8B90B40FC9F3F0EA25848086997 /* Pods-TKThaiAddress_Tests.debug.xcconfig */,
+				A5B8481523590E9CFED04FBB417903F1 /* Pods-TKThaiAddress_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKThaiAddress_Tests";
+			path = "Target Support Files/Pods-TKThaiAddress_Tests";
+			sourceTree = "<group>";
+		};
+		9F92024D822B401D58015D19A3ADA440 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83AB28DE6F6ABC9B4B56FD92B4BB8228 /* Pods-TKThaiAddress_Example */,
+				90DA0E10C48D44F3E37FDF00A71B7A24 /* Pods-TKThaiAddress_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A52340F41B61E70C94A8A1C4E8BC21AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65F80B4E1ED53B44007017A4 /* Manager */,
+				65F80B3E1ED53B3C007017A4 /* Model */,
+				65F80B491ED53B3C007017A4 /* SQLite */,
+				6E1556E7BBB068BC46C311A1E5A9D3EA /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AB33E3910486410F353F1C52C62D19AF /* TKThaiAddress */ = {
+			isa = PBXGroup;
+			children = (
+				2DBF6888BFF9E5A5A4E4054938BCE298 /* Support Files */,
+				5817FC2F5D52BA2E8866C0F23387EC60 /* TKThaiAddress */,
+			);
+			name = TKThaiAddress;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C8CFDE4A1B5C990F91FF38195860041 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F80B551ED53B9B007017A4 /* TKDatabaseManager.h in Headers */,
+				66EEF7EE757E2CB4FE61F49F4860F05B /* Pods-TKThaiAddress_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5424FFE5D2A993A449CFF64EF8817E35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E7838C13B2724F49F34C8026FF9A9C /* TKThaiAddress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B252BE79ED0B49A0380B274D5764D2F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6628801FC610B637BE47C984F89BB6 /* Pods-TKThaiAddress_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A93A259B8C739C26771693DC6FD763A2 /* TKThaiAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221A14D6B00C32DEEA4A910A110A3091 /* Build configuration list for PBXNativeTarget "TKThaiAddress" */;
+			buildPhases = (
+				DE74BE3D97B90C351E947351CD91E5F0 /* Sources */,
+				2EE5C6620BEC25B3302D76AD75D31812 /* Frameworks */,
+				5424FFE5D2A993A449CFF64EF8817E35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKThaiAddress;
+			productName = TKThaiAddress;
+			productReference = 0DC5A93D2CB8C3C576A3C781F1C33201 /* TKThaiAddress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4D4714923874151BFF34C65359AAD3F /* Pods-TKThaiAddress_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D64E76652742766E72B136009F298F /* Build configuration list for PBXNativeTarget "Pods-TKThaiAddress_Example" */;
+			buildPhases = (
+				02FA03AF84515AB7DED3FDAA6FE148BC /* Sources */,
+				294B4A9425E7FED3EB3A8AA485BAE7E6 /* Frameworks */,
+				4C8CFDE4A1B5C990F91FF38195860041 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29093680304A5C2BE7E8D8064D76AF4A /* PBXTargetDependency */,
+			);
+			name = "Pods-TKThaiAddress_Example";
+			productName = "Pods-TKThaiAddress_Example";
+			productReference = 8E707CF9788762CB8CA17B8B8957E0DF /* Pods_TKThaiAddress_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7292EE42118F9D05A6144D25770A021 /* Pods-TKThaiAddress_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AF01974112CD9E8F509D9555404829 /* Build configuration list for PBXNativeTarget "Pods-TKThaiAddress_Tests" */;
+			buildPhases = (
+				2EEB888D335B618F0DF04366C5254128 /* Sources */,
+				76829989525219063017E1B0BB4171B6 /* Frameworks */,
+				B252BE79ED0B49A0380B274D5764D2F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TKThaiAddress_Tests";
+			productName = "Pods-TKThaiAddress_Tests";
+			productReference = 0135CD61BBC9DDF39BD93F9F84868AA9 /* Pods_TKThaiAddress_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0CD966B8669B0A8CFFF9CEE9456EB8BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4D4714923874151BFF34C65359AAD3F /* Pods-TKThaiAddress_Example */,
+				F7292EE42118F9D05A6144D25770A021 /* Pods-TKThaiAddress_Tests */,
+				A93A259B8C739C26771693DC6FD763A2 /* TKThaiAddress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FA03AF84515AB7DED3FDAA6FE148BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073C3FC8A7E3FD2F3BFD6402EB08EED /* Pods-TKThaiAddress_Example-dummy.m in Sources */,
+				65F80B561ED53B9B007017A4 /* TKDatabaseManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB888D335B618F0DF04366C5254128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335825DE0CE768D779428CCE57753111 /* Pods-TKThaiAddress_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE74BE3D97B90C351E947351CD91E5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B442A6E73052BA8F49DC790C6D02E29 /* ReplaceMe.m in Sources */,
+				08BC589DD70DBE65C66C70904DF07C0F /* TKThaiAddress-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29093680304A5C2BE7E8D8064D76AF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKThaiAddress;
+			target = A93A259B8C739C26771693DC6FD763A2 /* TKThaiAddress */;
+			targetProxy = 4BB784C251F7D54738F142A6304D09AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1777EE214DE0425475C10EE4AC41ECD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519B41D612E287E7EE50B6516161D2FC /* TKThaiAddress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKThaiAddress/TKThaiAddress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKThaiAddress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKThaiAddress/TKThaiAddress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TKThaiAddress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E0BE4DD191652503DC42BCA1A117F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAC52B44BA09B89BC3B6E55B948A8F4 /* Pods-TKThaiAddress_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThaiAddress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThaiAddress_Example/Pods-TKThaiAddress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKThaiAddress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F9D280C8D48DCF95C61120D471055AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B8481523590E9CFED04FBB417903F1 /* Pods-TKThaiAddress_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThaiAddress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThaiAddress_Tests/Pods-TKThaiAddress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKThaiAddress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8545D193EA434192E214B782DA4C416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC02D8B90B40FC9F3F0EA25848086997 /* Pods-TKThaiAddress_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThaiAddress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThaiAddress_Tests/Pods-TKThaiAddress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKThaiAddress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B93851BE4A160B327F16553986B694B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648BAFA599B80A275DCE6DDD63811F04 /* Pods-TKThaiAddress_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKThaiAddress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKThaiAddress_Example/Pods-TKThaiAddress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKThaiAddress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD379A1D7A166261F471CE91B9080A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519B41D612E287E7EE50B6516161D2FC /* TKThaiAddress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKThaiAddress/TKThaiAddress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKThaiAddress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKThaiAddress/TKThaiAddress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TKThaiAddress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D64E76652742766E72B136009F298F /* Build configuration list for PBXNativeTarget "Pods-TKThaiAddress_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0BE4DD191652503DC42BCA1A117F0F /* Debug */,
+				B93851BE4A160B327F16553986B694B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221A14D6B00C32DEEA4A910A110A3091 /* Build configuration list for PBXNativeTarget "TKThaiAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1777EE214DE0425475C10EE4AC41ECD9 /* Debug */,
+				DD379A1D7A166261F471CE91B9080A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AF01974112CD9E8F509D9555404829 /* Build configuration list for PBXNativeTarget "Pods-TKThaiAddress_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8545D193EA434192E214B782DA4C416F /* Debug */,
+				3F9D280C8D48DCF95C61120D471055AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

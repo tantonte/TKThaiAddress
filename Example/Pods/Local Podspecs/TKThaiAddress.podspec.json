@@ -1,0 +1,22 @@
+{
+  "name": "TKThaiAddress",
+  "version": "0.1.0",
+  "summary": "A short description of TKThaiAddress.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tantonte/TKThaiAddress",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tantonte": "thanyapat.kosi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tantonte/TKThaiAddress.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TKThaiAddress/Classes/**/*"
+}

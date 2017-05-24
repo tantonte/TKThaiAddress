@@ -1,0 +1,6 @@
+framework module TKThaiAddress {
+  umbrella header "TKThaiAddress-umbrella.h"
+
+  export *
+  module * { export * }
+}

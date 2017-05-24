@@ -1,0 +1,16 @@
+PODS:
+  - TKThaiAddress (0.1.0)
+
+DEPENDENCIES:
+  - TKThaiAddress (from `../`)
+
+EXTERNAL SOURCES:
+  TKThaiAddress:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TKThaiAddress: 576a638da280e042e7cfbe9cf3b1a67d0e38560d
+
+PODFILE CHECKSUM: 98e2f71f0365555972edec2511f594d88a542a23
+
+COCOAPODS: 1.2.1
